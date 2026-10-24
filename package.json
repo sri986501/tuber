@@ -1,0 +1,12 @@
+{
+  "name": "brain-tumor-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Attention-Enhanced Hybrid CNN-Transformer Network for Robust Brain Tumor Detection in CT Images",
+  "scripts": {
+    "dev": "npm --prefix brain-tumor-ai/frontend run dev",
+    "build": "npm --prefix brain-tumor-ai/frontend run build",
+    "preview": "npm --prefix brain-tumor-ai/frontend run preview",
+    "backend": "python -m uvicorn backend.app.main:app --app-dir brain-tumor-ai --host 127.0.0.1 --port 8000"
+  }
+}

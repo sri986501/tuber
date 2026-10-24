@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments & Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# Node & Frontend builds
+node_modules/
+dist/
+build/
+.next/
+out/
+.npm
+*.tsbuildinfo
+
+# Medical Datasets (DICOM, large image sets)
+Bleeding/
+Ischemia/
+Normal/
+External_Test/
+**/dataset/
+dataset/
+
+# Large Model Weights, Checkpoints & Artifacts (>100MB)
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.onnx
+*.bin
+*.ckpt
+**/experiments/
+experiments/
+
+# Logs and environment variables
+*.log
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
